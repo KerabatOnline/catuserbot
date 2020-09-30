@@ -24,11 +24,11 @@
     },
     "ALIVE_NAME": {
       "description": "Give your name, like Jisan",
-      "value": ""
+      "value": "@KingRobertz"
     },
     "LIVE_USERNAME": {
       "description": "give your tg username, like @Jisan7509",
-      "value": ""
+      "value": "@KingRobertz"
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -36,7 +36,7 @@
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "value": "1f1340ba6aaa14a2bf8e81093ab77da7"
     },
     "STRING_SESSION": {
       "description": "Get this value by running python3 telesetup.py locally",
