@@ -60,7 +60,7 @@ async def amireallyalive(alive):
                 f"**{EMOJI} Telethon Version :** `{version.__version__}\n`"
                 f"**{EMOJI} Catuserbot Version :** `{catversion}`\n"
                 f"**{EMOJI} Database :** `{check_sgnirts}`\n\n"
-                "   **[GoodCat]**(https://github.com/sandy1709/catuserbot) | **[BadCat]**(https://github.com/Jisan09/catuserbot) | **[Support]**(https://t.me/catuserbot_support) ",
+                "   **[KerabatOnline]**(https://t.me/KerabatOnline) | **[BadCat]**(https://github.com/Jisan09/catuserbot) | **[Support]**(https://t.me/catuserbot_support) ",
             )
     elif CAT_IMG:
         cat_caption = "<b><i>✮ MY BOT IS RUNNING SUCCESFULLY ✮</b></i>\n\n"
@@ -90,7 +90,7 @@ async def amireallyalive(alive):
         await edit_or_reply(
             alive,
             "__**✮ MY BOT IS RUNNING SUCCESFULLY ✮**__\n\n"
-            f"**{EMOJI} Master:** [{DEFAULTUSER}](tg://user?id={hmm})\n"
+            f"**{EMOJI} Boss Saya:** [{DEFAULTUSER}](tg://user?id={hmm})\n"
             f"**{EMOJI} Uptime :** `{uptime}\n`"
             f"**{EMOJI} Python Version :** `{python_version()}\n`"
             f"**{EMOJI} Telethon Version :** `{version.__version__}\n`"
@@ -114,7 +114,7 @@ async def amireallyalive(alive):
     cat_caption += f"**  -Telethon version :** `{version.__version__}\n`"
     cat_caption += f"**  -Catuserbot Version :** `{catversion}`\n"
     cat_caption += f"**  -Python Version :** `{python_version()}\n`"
-    cat_caption += f"**  -My peru Master:** [{DEFAULTUSER}](tg://user?id={hmm})\n"
+    cat_caption += f"**  -Boss saya:** [{DEFAULTUSER}](tg://user?id={hmm})\n"
     results = await bot.inline_query(tgbotusername, cat_caption)  # pylint:disable=E0602
     await results[0].click(alive.chat_id, reply_to=reply_to_id, hide_via=True)
     await alive.delete()
